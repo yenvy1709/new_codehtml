@@ -1,0 +1,541 @@
+﻿.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+    background-color: #000!important;
+    opacity: 1;
+    padding: 11px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+.nav navbar-nav flex-grow-1 justify-content-between {
+    margin: 0px -10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.navbar-dark .navbar-nav .nav-link .macOS, .navbar-dark .navbar-nav .nav-link .search, .navbar-dark .navbar-nav .nav-link .shoppingBag {
+    font-size: 19px;
+    line-height: 100%;
+    color: #fff;
+}
+.macOS {
+    color: white;
+}
+body {
+    padding-top: 40px;
+    width: 100%;
+}
+/* Shop Online */
+.introShopOnline {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    background-color: #F5F5F7;
+}
+.iPhone12 {
+    text-align: center;
+}
+.iPhone12Pro {
+    padding-top: 12px;
+    text-align: center;
+}
+.iPhone12 h2, .iPhone12Pro h2, .Fitnessplus h2 {
+    font-size: 56px;
+    letter-spacing: -.005em;
+}
+.iPhone12 .links, .iPhone12Pro .links, .Fitnessplus .links {
+    font-size: 21px;
+}
+.iPhone12 .learnMore, .iPhone12Pro .learnMore , .Fitnessplus .tryItFree, .iPadAir .learnMore, .appleWatch .learnMore, .appleOne .learnMore {
+    margin-right: 28px;
+}
+.iPhone12, .iPhone12Pro, .gifts, .iPadAir, .appleWatch, .appleOne, .appleCard, .appleTVPlus {
+    position: relative;
+}
+.iPhone12 .titleIphone12, .iPhone12Pro .titleIphone12Pro, .titleGifts, .titleIPadAir, .titleAppleWatch, .titleAppleOne, .titleCard, .titleTVPlus {
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.iPhone12 .imgIphone12 {
+    background-color: #FBFBFD;
+}
+.iPhone12Pro .imgIphone12Pro {
+    background-color: #000000;
+}
+.titleContent {
+    color: #707070;
+}
+.titleIphone12Pro {
+    color: white;
+}
+.rs1 {
+    line-height: 12px;
+}
+.Fitnessplus {
+    padding-top: 40px;
+    text-align: center;
+    background-color: #FBFBFD;
+}
+.titleFitnessPlus {
+    padding-bottom: 25px;
+}
+.Fitnessplus .macOSLogo {
+    color: black;
+}
+.gifts .links, .iPadAir .links, .appleWatch .links, .appleOne .links, .appleCard .links {
+    font-size: 17px;
+}
+.gifts, .iPadAir {
+    height: 534px;
+    padding-top: 40px;
+    margin: 10px 0px 10px -10px;
+    text-align: center;
+}
+.gifts h4, .iPadAir h4 {
+    font-size: 40px;
+}
+.gifts, .iPadAir {
+    background-color: #FBFBFD;
+}
+.appleWatch, .appleOne {
+    height: 534px;
+    margin: 0px 0px 10px -10px;
+    padding-top: 40px;
+    text-align: center;
+}
+.appleWatch {
+    background-color: black;
+}
+.appleWatch h5 {
+    color: white;
+}
+.appleOne {
+    background-color: #FBFBFD;
+}
+.gifts img, .iPadAir img,  appleOne .services, .appleCard .card {
+        height: 493px;
+        width: 577px; 
+}
+.appleWatch .aws6, .appleOne .services {
+    padding-top: 152px;
+}
+.appleCard, .appleTVPlus {
+    height: 545px;
+    margin: 0px 0px 10px -10px;
+    text-align: center;
+}
+.appleCard {
+    background-color: #FBFBFD;
+}
+.titleCard {
+    color: black;
+}
+.card {
+    text-align:center;
+}
+.titleCard {
+    color: black;
+}
+.tvplus {
+    height: 100%;
+    width: 100%;
+}
+.imgCard {
+    height: 100%;
+    width: 100%;
+}
+.footerImg {
+    position: relative;
+    top: 245px;
+    color: white;
+}
+.footerImg .links a {
+    color: white;
+}
+/* Foot */
+.detail {
+    width: 980px;
+    height: 361.8px;
+    border-bottom: 1px solid #d2d2d7;
+    font-size: 12px;
+    padding: 17px 0 11px;
+    color: #86868b;
+}
+.detail ul li {
+    list-style-type: none;
+    padding-bottom: 0.8em;
+}
+.detail ul {
+    padding: 0;
+    list-style-type: none;
+}
+.content {
+    width: 1024px;
+    height: 886.8px;
+    padding: 0 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* nguyen phan cuôi web iphone */
+.foot, .footiPhone, .footMac {
+    background-color: white;
+    font-size: 12px;
+}
+/*  */
+.rowFooter, .footiPhone .rowFooter, .footMac .rowFooter {
+    width: 1000px;
+    height: 412px;
+}
+.rowFooter ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+}
+.column {
+    float: left;
+    width: 20%;
+    height: 300px;
+    padding: 11px 0px 0px;
+}
+.column h3 {
+    margin: 0px 20px 9.6px 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.column ul li a, .footerLegalLinks a, .footerLocale a{
+    color: #515154;
+}
+.column ul li {
+    margin-bottom: .8em;
+}
+.footer {
+    width: 900px;
+    height: 90px;
+    padding: 30px 0px 20px;
+    color: #86868b;
+}
+.footerShop {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.footerLegal {
+    position: relative;
+    top: -3px;
+    z-index: 1;
+}
+.footerLegalCopyright {
+    margin-right: 30px;
+    float: left;
+    margin-top: 5px;
+}
+.footerLegalLinks {
+    position: relative;
+    top: 5px;
+    z-index: 1;
+    display: inline-block;
+}
+.footerLegalLinks a {
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.footerLegalLinks a:last-child {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.footerLocale a:first-child {
+    border-left: none;
+    float: right;
+    margin: 5px 30px 0px 0px;
+}
+/*iPhone*/
+.i-iPhone12Pro, i-iPhone12 {
+    position: relative;
+}
+.i-iPhone12Pro {
+    height: 1072.6px;
+    background-color: black;
+}
+.i-titleiPhone12Pro, .i-titleiPhone12, .productsForYou, .waysToBuy {
+    padding-top: 120px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.i-iPhone12Pro h2 {
+    color: white;
+    font-size: 24px;
+    letter-spacing: -.005em;
+}
+.i-iPhone12Pro p {
+    font-size: 48px;
+    color: white;
+}
+.i-iPhone12Pro .p1 {
+    font-size: 21px;
+    color: white;
+}
+.i-imgiPhone12Pro {
+    padding-top: 450px;
+    float: right;
+}
+.btn {
+    border-radius: 18px;
+}
+.i-links {
+    padding-top: 10px;
+}
+.i-iPhone12 {
+    background-color: #f2f2f2;
+    height: 1200px;
+    width: auto;
+    font-weight: 400px;
+    text-align: center;
+}
+.i-imgiPhone12 {
+    padding-top: 500px;
+    text-align: center;
+}
+.i-iPhone12 h2 {
+    color: black;
+    font-size: 24px;
+    letter-spacing: -.005em;
+}
+.i-iPhone12 p, .productsForYou h2, .i-titleWTB .p2, .productsForYou1 h2 {
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+}
+.i-iPhone12 .p1, .waysToBuy p{
+    font-size: 21px;
+    color: black;
+}
+.productsForYou {
+    width: 1519.2px;
+    height: 1182.04px;
+    background-color: white;
+}
+.productsForYou .compare, .productsForYou1 .compare {
+    font-size: 24px;
+    letter-spacing: -.005em;
+}
+.productsForYou .row, .buyIphone{
+    padding-top:50px;
+}
+.productsForYou .row ul, .productsForYou1 .row ul {
+    padding: 0;
+    list-style-type: none;
+}
+.productsForYou .row ul li {
+    margin-top: 20px;
+}
+.productsForYou .row h3 {
+    font-size: 24px;
+}
+.row .i-imgiPhoneSELogo {
+    padding-bottom: 14.3px;
+}
+.waysToBuy {
+    width: auto;
+    height: 800px;
+    background-color: white;
+}
+.waysToBuy h2 {
+    font-size: 50px;
+    font-weight: 350px;
+    padding-bottom: 35px;
+    padding: auto;
+}
+.i-titleWTB {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 500px;
+    padding: auto;
+    background-color: white;
+}
+.i-titleWTB h3 {
+    font-size: 25px;
+    font-weight: 600px;
+}
+.i-titleWTB .p2, .imgATandT, .imgTMobile, .imgVerizon {
+    padding-bottom: 45px;
+}
+.BIP12 {
+    margin-right: 175px;
+}
+.buyIphone a {
+    font-size: 24px;
+}
+.footiPhone {
+    padding-top: 1000px;
+}
+/*Mac*/
+.introMac {
+    height: 403.8px;
+    padding-top: 88px;
+    text-align: center;
+    background-color: black;
+}
+.introMac h2 {
+    background: radial-gradient(ellipse at center, #eff1ff 10%, #000 100%);
+    font-size: 80px;
+    background-size: 54% 156%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+}
+.introMacbookAir, .introMacbookPro, .introMacbookMini {
+    background-color: black;
+    height: 566px;
+    padding-top: 92px;
+}
+.m-titleMacBookAir {
+    padding-left: 150px;
+}
+.m-titleMacBookAir .new, .m-titleMacBookPro .new, .m-titleMacBookMini .new {
+    color: #F56300;
+}
+.m-titleMacBookAir h2, .m-titleMacBookPro h2, .m-titleMacBookMini h2 {
+    font-size: 56px;
+    color: white;
+}
+.m-titleMacBookAir .p1, .m-titleMacBookPro .p1, .m-titleMacBookMini .p1 {
+    font-size: 28px;
+    color: white;
+}
+.m-titleMacBookAir p, .m-titleMacBookPro p, .m-titleMacBookMini p {
+    font-size: 17px;
+    color: white;
+}
+.m-titleMacBookPro .p2 {
+    font-size: 21px;
+    color: white;
+}
+.imgNewMacbookPro {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+.m-titleMacBookPro {
+    padding-right: 137px;
+}
+.m-titleMacBookMini {
+    padding-left: 150px;
+}
+.productsForYou1 {
+    background-color: #F2F2F2;
+    padding-top: 24px;
+    text-align: center;
+    height: 845px;
+    width: 1380px;
+    margin: 30px auto;
+}
+.cb {
+    padding-top: 25px;
+}
+.productsForYou1 h2 {
+    padding-top: 60px;
+}
+.people {
+    width: 1380px;
+    text-align: center;
+    margin: 25px auto;
+}
+.people .col-md-6 {
+    padding: 0;
+    width: 100%;
+}
+.m-imgEducation, m-imgHigherEducation {
+    position: relative;
+}
+.MFE {
+    position: absolute;
+    z-index: 1;
+    bottom: 219px;
+    right: 90px;
+}
+.MFHE {
+    position: absolute;
+    z-index: 1;
+    bottom: 219px;
+    right: 62px;
+}
+.MFE h2, .MFHE h2, .m-titleMFB h2 {
+    font-size: 48px;
+    color: white;
+}
+.MFE p, .MFHE p, .m-titleMFB p {
+    font-size: 21px;
+    color: white;
+}
+.MFE a, .MFHE a, .m-titleMFB a {
+    font-size: 21px;
+}
+
+.MFB {
+    padding-top: 13.5px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 620px;
+}
+.m-titleMFB {
+    position: relative;
+    bottom: 400px;
+}
+.footMac {
+    padding-top: 10px;
+}
+/*iPad*/
+.iPadEssentials h2 {
+    padding-top: 50px;
+    font-size: 56px;
+    text-align: center;
+}
+.titleApplePecil, .titleAccessories, .titleOptionAirPods {
+    text-align: center;
+    padding-top: 60px;
+}
+.titleApplePecil h3, .titleKeyBoards h3, .titleAccessories h3, .titleOptionAirPods h3 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+}
+.titleApplePecil .links, .titleApplePecil p, .titleKeyBoards .links, .titleKeyBoards p, .titleAccessories .links, .titleAccessories p, .titleOptionAirPods .links, .titleOptionAirPods p {
+    font-size: 21px;
+}
+.titleKeyBoards {
+    text-align: center;
+}
+/*Watch*/
+.titleS6 p, .titleSe p{
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.08365;
+    letter-spacing: -.003em;
+}
+.titleS6 .v, .titleSe  .v{
+    font-size: 21px;
+    color: white;
+}
+.titleS6, .titleSe {
+    text-align: center;
+}
