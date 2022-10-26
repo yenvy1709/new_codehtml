@@ -539,3 +539,10 @@ body {
 .titleS6, .titleSe {
     text-align: center;
 }
+/*Support*/
+.as-imagegrid{
+    display: block;
+    margin-left: auto;
+    margin-right: 120px;
+    width: 100%;
+}
