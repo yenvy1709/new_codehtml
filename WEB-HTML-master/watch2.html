@@ -46,6 +46,28 @@
                             <i class="fa fa-th-large"></i>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="LogOut()">Log Out</a>
+                    </li>
+                    <script>
+                        function LogOut (e) { 
+                            
+                            var q=window.confirm("Want to log out !!!!");
+                            
+                            if(q){
+                                window.alert("leave");
+                                window.location.href="index.html";
+                                return;
+                            }
+                            else{
+                                window.alert("Stay");
+                                window.location.href="index2.html";
+                                return;
+                            }
+                            e.preventDefaulf();
+                           
+                        }
+                    </script>
                 </ul>
             </div>
         </div>
@@ -74,7 +96,7 @@
                     </p>
                     <div class="i-links">
                         <button type="button" style="margin-right:20px" class="btn btn-primary">Buy</button>
-                        <a class="learnMore" href="#">
+                        <a class="learnMore" href="https://www.apple.com/newsroom/2020/09/apple-watch-series-6-delivers-breakthrough-wellness-and-fitness-capabilities/">
                             Learn more
                             <i class="fa fa-angle-right"></i>
                         </a>
